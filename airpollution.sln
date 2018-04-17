@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "airpollution", "airpollution\", "{0BD59EED-DE8E-4789-A676-B39290F4886B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6659"
+		Debug.AspNetCompiler.PhysicalPath = "airpollution\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6659\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6659"
+		Release.AspNetCompiler.PhysicalPath = "airpollution\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6659\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6659"
+		SlnRelativePath = "airpollution\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD59EED-DE8E-4789-A676-B39290F4886B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD59EED-DE8E-4789-A676-B39290F4886B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46ABCF79-AAC9-4971-B5EA-DECF4447E6C0}
+	EndGlobalSection
+EndGlobal
