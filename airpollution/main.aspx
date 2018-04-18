@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="main.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="main.aspx.cs" Inherits="main" %>
 
 <!DOCTYPE html>
 
@@ -7,7 +7,7 @@
 <head runat="server">
     <title>空汙</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -19,8 +19,8 @@
             <li><a href="#">空汙數據庫</a></li>
             <li><a href="#">空汙排行</a></li>
             <li><a href="#">討論區</a></li>
-            <li><a href="../login/login.aspx">Log in</a></li>
-            <li><a href="../login/signup.aspx">Sign up</a></li>
+            <li><a href="account/login.aspx">Log in</a></li>
+            <li><a href="account/signup.aspx">Sign up</a></li>
         </ul>
     </header>
 </div>
