@@ -33,18 +33,17 @@
 
         <p>
             User name:<br>
-        &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
         </p><br>
 
         <p>
             Email address:<br>
-        &nbsp;<asp:TextBox ID="TextBox2" runat="server" TextMode="Email"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="TextBox2" runat="server" Required TextMode="Email"></asp:TextBox>
         </p><br>
-
-
+        
         <p>
             Password:<br>
-        &nbsp;<asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="TextBox3" runat="server" Required TextMode="Password"></asp:TextBox>
         <p><br>
 
         <p>

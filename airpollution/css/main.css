@@ -8,6 +8,7 @@ body {
     width: 100%;
     padding: 0;
 }
+/* 這是開頭 */
 
 div#wrapper {
     width: 100%;
@@ -41,13 +42,22 @@ a:hover {
     color: white;
 }
 
-div#content {
+/* 中間部分 */
+
+div.owl-carousel {
     width: 75%;
-    margin: 0 auto;
-    padding: 3%;
-    background-color: aliceblue;
+    margin: 2em auto;
+    height: 500px;
+    display: block;
+    text-align: center;
 }
 
+div.owl-carousel img{
+    max-width: 1800px;
+    max-height: 350px;
+}
+
+/* 頁尾 */
 footer {
     width: 100%;
     margin: 0 auto;
@@ -59,4 +69,25 @@ footer p{
     font-size: 1.2em;
     color: white;
     text-align: center;
+}
+
+
+responsive : {
+    // breakpoint from 0 up 0 :
+
+{
+    option1: value, option2 : value, ...
+}
+
+,
+// breakpoint from 480 up
+480 : {
+    option1: value, option2 : value, ...
+}
+
+,
+// breakpoint from 768 up
+768 : {
+    option1: value, option2 : value, ...
+}
 }
