@@ -15,8 +15,8 @@ public partial class account_signup : System.Web.UI.Page
     }
 
     protected void Button1_Click(object sender, EventArgs e)
-    {   
-        SqlConnection Conn = new SqlConnection(ConfigurationManager.ConnectionStrings["MSSQL_DBconnect"].ConnectionString);
+    {
+        SqlConnection Conn = new SqlConnection("Server=163.17.9.68;Database=DB1_05;User Id=DB1_05;Password=DB1_05; ");
         Conn.Open();
         SqlDataReader dr;
         SqlCommand cmd = new SqlCommand("Select * From db_account Where account='" + account.Text + "'", Conn);

@@ -22,8 +22,6 @@
             <li><a href="#">空汙數據</a></li>
             <li><a href="#">空汙排行</a></li>
             <li><a href="#">討論區</a></li>
-            <li><a href="#">登入</a></li>
-            <li><a href="../account/signup.aspx">註冊</a></li>
         </ul>
     </header>
 </div>
