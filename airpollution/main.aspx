@@ -14,16 +14,34 @@
 </head>
 
 <body>
+    <form id="form1" runat="server">
    <div id="wrapper">
     <header>
         <ul>
-            <li><a href="#">首頁</a></li>
-            <li><a href="#">空汙介紹</a></li>
-            <li><a href="#">空汙數據庫</a></li>
-            <li><a href="#">空汙排行</a></li>
-            <li><a href="#">討論區</a></li>
-            <li><a href="account/login.aspx">Log in</a></li>
-            <li><a href="account/signup.aspx">Sign up</a></li>
+            <li>
+                <asp:Button ID="Button1" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="首頁" Height="45px" Width="70px" OnClick="Button1_Click" />
+            </li>
+            <li>
+                <asp:Button ID="Button2" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙介紹" Height="45px" Width="70px" OnClick="Button2_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+            </li>
+            <li>
+                <asp:Button ID="Button3" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙數據" Height="45px" Width="70px" OnClick="Button3_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+            </li>
+            <li>
+                <asp:Button ID="Button4" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙排行" Height="45px" Width="70px" OnClick="Button4_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+            </li>
+            <li>
+                <asp:Button ID="Button5" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="討論區" Height="45px" Width="70px" OnClick="Button5_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+            </li>
+            <li>
+                <asp:Button ID="Button6" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="登入" Height="45px" Width="70px" OnClick="Button6_Click" Visible="False" />
+            </li>
+            <li>
+                <asp:Button ID="Button7" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="註冊" Height="45px" Width="70px" OnClick="Button7_Click" Visible="False" />
+            </li>
+            <li>
+                <asp:Button ID="Button8" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="登出" Height="45px" Width="70px" OnClick="Button8_Click" Visible="False" OnClientClick="window.alert(&quot;登出成功!!!&quot;);" />
+            </li>
         </ul>
     </header>
 </div>
@@ -43,5 +61,6 @@
     <script src="jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    </form>
 </body>
 </html>

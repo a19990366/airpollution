@@ -16,11 +16,11 @@
         <ul>
             <li><a href="../main.aspx">首頁</a></li>
             <li><a href="#">空汙介紹</a></li>
-            <li><a href="#">空汙數據庫</a></li>
+            <li><a href="#">空汙數據</a></li>
             <li><a href="#">空汙排行</a></li>
             <li><a href="#">討論區</a></li>
-            <li><a href="#">Log in</a></li>
-            <li><a href="../account/signup.aspx">Sign up</a></li>
+            <li><a href="#">登入</a></li>
+            <li><a href="../account/signup.aspx">註冊</a></li>
         </ul>
     </header>
 </div>
@@ -31,17 +31,20 @@
         <br>
 
         <form id="form1" runat="server">
-            Your E-mail:
+            帳號:
             <br>
-            <asp:TextBox ID="email" runat="server" required TextMode="Email"></asp:TextBox>
+            <asp:TextBox ID="account" runat="server" required Height="25px"></asp:TextBox>
             <br />
             <br>
-            Your Password:
+            密碼:
             <br>
-            <asp:TextBox ID="password" runat="server" required TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="password" runat="server" required TextMode="Password" Height="25px"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Login" />
+            <asp:Label ID="Label1" ForeColor="Red" runat="server"></asp:Label>
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Login_Click" Text="登入" />
             <br>
         </form>
     </div>

@@ -29,13 +29,13 @@ header li {
     font-size: 0.8em;
 }
 
-header li a {
-    display: block;
-    color: #CDCFD3;
-    text-decoration: none;
-    padding: 1.5em 1em;
-    border-radius: 5px;
-}
+    header li a {
+        display: block;
+        color: #CDCFD3;
+        text-decoration: none;
+        padding: 1.5em 1em;
+        border-radius: 5px;
+    }
 
 a:hover {
     color: white;

@@ -50,6 +50,8 @@ div.owl-carousel {
     height: 500px;
     display: block;
     text-align: center;
+    top: 0px;
+    left: 0px;
 }
 
 div.owl-carousel img{
@@ -69,25 +71,4 @@ footer p{
     font-size: 1.2em;
     color: white;
     text-align: center;
-}
-
-
-responsive : {
-    // breakpoint from 0 up 0 :
-
-{
-    option1: value, option2 : value, ...
-}
-
-,
-// breakpoint from 480 up
-480 : {
-    option1: value, option2 : value, ...
-}
-
-,
-// breakpoint from 768 up
-768 : {
-    option1: value, option2 : value, ...
-}
 }

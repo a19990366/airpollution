@@ -17,11 +17,11 @@
         <ul>
             <li><a href="../main.aspx">首頁</a></li>
             <li><a href="#">空汙介紹</a></li>
-            <li><a href="#">空汙數據庫</a></li>
+            <li><a href="#">空汙數據</a></li>
             <li><a href="#">空汙排行</a></li>
             <li><a href="#">討論區</a></li>
-            <li><a href="../account/login.aspx">Log in</a></li>
-            <li><a href="#">Sign up</a></li>
+            <li><a href="../account/login.aspx">登入</a></li>
+            <li><a href="#">註冊</a></li>
         </ul>
     </header>
 </div>
@@ -32,22 +32,28 @@
         <br>
 
         <p>
-            User name:<br>
-        &nbsp;<asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
+            帳號:<br>
+        &nbsp;<asp:TextBox ID="account" runat="server" Height="25px" ></asp:TextBox>
         </p><br>
 
         <p>
             Email address:<br>
-        &nbsp;<asp:TextBox ID="TextBox2" runat="server" Required TextMode="Email"></asp:TextBox>
+        &nbsp;<asp:TextBox ID="email" runat="server" Required TextMode="Email" Height="25px"></asp:TextBox>
         </p><br>
         
         <p>
-            Password:<br>
-        &nbsp;<asp:TextBox ID="TextBox3" runat="server" Required TextMode="Password"></asp:TextBox>
+            密碼:<br>
+        &nbsp;<asp:TextBox ID="password" runat="server" Required TextMode="Password" Height="25px"></asp:TextBox>
+        <p>
+            &nbsp;<p>
+            確認密碼:<p>
+            <asp:TextBox ID="password0" runat="server" Required TextMode="Password" Height="25px"></asp:TextBox>
+        <p>&nbsp;<p>
+        <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
         <p><br>
 
         <p>
-        &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Sign up" />
+        &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="註冊" />
         </p>
     
     </div>
