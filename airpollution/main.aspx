@@ -42,6 +42,9 @@
             <li>
                 <asp:Button ID="Button8" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="登出" Height="45px" Width="70px" OnClick="Button8_Click" Visible="False" OnClientClick="window.alert(&quot;登出成功!!!&quot;);" />
             </li>
+            <li>
+                <asp:Button ID="Button9" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="會員管理" Height="45px" Width="70px" OnClick="Button9_Click" Visible="False" />
+            </li>
         </ul>
     </header>
 </div>

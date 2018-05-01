@@ -1,6 +1,6 @@
 ﻿* {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 0 0 0px;
 }
 
 body {
@@ -45,8 +45,11 @@ div#content {
     width: 70%;
     margin: 0 auto;
     padding: 2em 3%;
-    text-align: center;
+    text-align: left;
+    height: 0px;
 }
+
+
 
 input[type=text]:focus {
     color: blue;
@@ -58,4 +61,3 @@ input[type=submit] {
     color: white;
     border-radius: 5px;
 }
-

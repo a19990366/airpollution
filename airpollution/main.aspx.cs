@@ -14,14 +14,15 @@ public partial class main : System.Web.UI.Page
             Button6.Visible = true;
             Button7.Visible = true;
         }
-        else
+        else if(Equals(Session["Login"], "OK"))
         {
-            if (Equals(Session["Login"], "OK"))
-            {
-                Button8.Visible = true;
-            }
+            Button8.Visible = true;
+            Button8.Text = Session["name"].ToString()+"(登出)";
         }
-        
+        if (Convert.ToInt32(Session["rank"])==5)
+        {
+            Button9.Visible = true;
+        }
     }
 
     protected void Button1_Click(object sender, EventArgs e)
@@ -65,5 +66,10 @@ public partial class main : System.Web.UI.Page
         Session["account"] = null;
         Session["rank"] = 0;
         Response.Redirect("main.aspx");
+    }
+
+    protected void Button9_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("account/manager_account.aspx");
     }
 }

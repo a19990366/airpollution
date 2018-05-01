@@ -28,14 +28,19 @@ public partial class account_signup : System.Web.UI.Page
             dr.Close();
             Conn.Close();
             Conn.Dispose();
-        } else if(!Equals(password.Text, password0.Text))
+        }
+        else if(!Equals(password.Text, password0.Text))
         {
-             Label1.Text = "請確認密碼!";
+            Label1.Text = "請重新確認密碼!";
+            cmd.Cancel();
+            dr.Close();
+            Conn.Close();
+            Conn.Dispose();
         }
         else
         {
             dr.Close();
-            cmd = new SqlCommand("INSERT INTO db_account VALUES ('" + account.Text + "','" + password.Text + "','" + email.Text + "',1)", Conn);
+            cmd = new SqlCommand("INSERT INTO db_account VALUES ('" + account.Text + "','" + password.Text + "','"+name.Text+"','" + email.Text + "','"+ DropDownList1.Text + "',1)", Conn);
             cmd.ExecuteNonQuery();
             Conn.Close();
             Conn.Dispose();

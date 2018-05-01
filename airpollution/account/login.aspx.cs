@@ -33,7 +33,7 @@ public partial class account_login : System.Web.UI.Page
         else
         {
             Session["Login"] = "OK";
-            Session["account"] = dr["account"].ToString();
+            Session["name"] = dr["name"].ToString();
             Session["rank"] = dr["rank"].ToString();
             cmd.Cancel();
             dr.Close();

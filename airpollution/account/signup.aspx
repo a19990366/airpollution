@@ -33,7 +33,7 @@
 
         <p>
             帳號:<br>
-        &nbsp;<asp:TextBox ID="account" runat="server" Height="25px" ></asp:TextBox>
+        &nbsp;<asp:TextBox ID="account" runat="server" Height="25px" required="true"></asp:TextBox>
         </p><br>
 
         <p>
@@ -48,6 +48,12 @@
             &nbsp;<p>
             確認密碼:<p>
             <asp:TextBox ID="password0" runat="server" Required TextMode="Password" Height="25px"></asp:TextBox>
+        <p>&nbsp;<p>暱稱:<p><asp:TextBox ID="name" runat="server" Height="25px" required="true"></asp:TextBox>
+        <p>&nbsp;<p>
+        <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem Value="M">男生</asp:ListItem>
+            <asp:ListItem Value="F">女生</asp:ListItem>
+        </asp:DropDownList>
         <p>&nbsp;<p>
         <asp:Label ID="Label1" runat="server" ForeColor="Red"></asp:Label>
         <p><br>
