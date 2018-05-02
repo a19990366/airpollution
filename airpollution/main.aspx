@@ -8,8 +8,8 @@
     <title>空汙</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/ajax-loader.gif" />
 </head>
 
@@ -19,40 +19,40 @@
     <header>
         <ul>
             <li>
-                <asp:Button ID="Button1" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="首頁" Height="45px" Width="70px" OnClick="Button1_Click" />
+                <asp:Button class="button" ID="Button1" runat="server" Text="首頁" OnClick="Button1_Click" />
             </li>
             <li>
-                <asp:Button ID="Button2" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙介紹" Height="45px" Width="70px" OnClick="Button2_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+                <asp:Button class="button" ID="Button2" runat="server" Text="空汙介紹"  OnClick="Button2_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
             </li>
             <li>
-                <asp:Button ID="Button3" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙數據" Height="45px" Width="70px" OnClick="Button3_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+                <asp:Button class="button" ID="Button3" runat="server" Text="空汙數據"  OnClick="Button3_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
             </li>
             <li>
-                <asp:Button ID="Button4" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="空汙排行" Height="45px" Width="70px" OnClick="Button4_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+                <asp:Button class="button" ID="Button4" runat="server" Text="空汙排行"  OnClick="Button4_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
             </li>
             <li>
-                <asp:Button ID="Button5" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="討論區" Height="45px" Width="70px" OnClick="Button5_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
+                <asp:Button class="button" ID="Button5" runat="server" Text="討論區"  OnClick="Button5_Click" OnClientClick="window.alert(&quot;尚未完成，敬請期待!&quot;);" />
             </li>
             <li>
-                <asp:Button ID="Button6" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="登入" Height="45px" Width="70px" OnClick="Button6_Click" Visible="False" />
+                <asp:Button class="button" ID="Button6" runat="server" Text="登入"  OnClick="Button6_Click" Visible="False" />
             </li>
             <li>
-                <asp:Button ID="Button7" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="註冊" Height="45px" Width="70px" OnClick="Button7_Click" Visible="False" />
+                <asp:Button class="button" ID="Button7" runat="server" Text="註冊" OnClick="Button7_Click" Visible="False" />
+            </l>
+            <li>
+                <asp:Button class="button" ID="Button8" runat="server" Text="登出" OnClick="Button8_Click" Visible="False" OnClientClick="window.alert(&quot;登出成功!!!&quot;);" />
             </li>
             <li>
-                <asp:Button ID="Button8" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="登出" Height="45px" Width="70px" OnClick="Button8_Click" Visible="False" OnClientClick="window.alert(&quot;登出成功!!!&quot;);" />
-            </li>
-            <li>
-                <asp:Button ID="Button9" runat="server" BackColor="Black" BorderColor="Black" BorderStyle="None" ForeColor="White" Text="會員管理" Height="45px" Width="70px" OnClick="Button9_Click" Visible="False" />
+                <asp:Button class="button" ID="Button9" runat="server" Text="會員管理" OnClick="Button9_Click" Visible="False" />
             </li>
         </ul>
     </header>
 </div>
 
     <div class="owl-carousel owl-theme">
-        <div class="item"><img src="img/crafting.png"/></div>
-        <div class="item"><img src="img/men.png"/></div>
-        <div class="item"><img src="img/Untitled design.png"/></div>
+        <div class="item"><img src="img/banner1.gif"/></div>
+        <div class="item"><img src="img/banner2.jpg"/></div>
+        <div class="item"><img src="img/banner4.jpg"/></div>
     </div>
 
     <footer>

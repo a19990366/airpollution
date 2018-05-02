@@ -6,7 +6,7 @@
 <head runat="server">
     <title>空汙</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/manger_account.css">
     <style type="text/css">
         #form1 {
             width: 435px;

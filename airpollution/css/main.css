@@ -30,15 +30,16 @@ header li {
     font-size: 0.8em;
 }
 
-header li a {
-    display: block;
+.button {
     color: #CDCFD3;
+    border: none;
+    float: right;
     text-decoration: none;
-    padding: 1.5em 1em;
-    border-radius: 5px;
+    background-color: black;
+    padding: 1.25em 1em;
 }
 
-a:hover {
+.button:hover{
     color: white;
 }
 
