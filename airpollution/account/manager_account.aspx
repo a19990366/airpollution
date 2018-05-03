@@ -6,7 +6,7 @@
 <head runat="server">
     <title>空汙</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="stylesheet" href="../css/login.css"/>
+    <link rel="stylesheet" href="../css/manger_account.css">
     <style type="text/css">
         #form1 {
             width: 435px;
@@ -27,7 +27,7 @@
 </div>
 <div id="content">
         <h1>管理會員</h1>
-        <br/>
+        <br>
     <div id="form">
         <form id="form1" runat="server">
 
@@ -104,7 +104,7 @@
                 <SortedDescendingCellStyle BackColor="#FFFDF8" />
                 <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MyDbConnection %>" DeleteCommand="DELETE FROM [db_account] WHERE [account] = @account" InsertCommand="INSERT INTO [db_account] ([account], [password], [name], [email], [sex], [rank]) VALUES (@account, @password, @name, @email, @sex, @rank)" SelectCommand="SELECT * FROM [db_account]" UpdateCommand="UPDATE [db_account] SET [password] = @password, [name] = @name, [email] = @email, [sex] = @sex, [rank] = @rank WHERE [account] = @account">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MSSQL_DBconnect %>" DeleteCommand="DELETE FROM [db_account] WHERE [account] = @account" InsertCommand="INSERT INTO [db_account] ([account], [password], [name], [email], [sex], [rank]) VALUES (@account, @password, @name, @email, @sex, @rank)" SelectCommand="SELECT * FROM [db_account]" UpdateCommand="UPDATE [db_account] SET [password] = @password, [name] = @name, [email] = @email, [sex] = @sex, [rank] = @rank WHERE [account] = @account">
                 <DeleteParameters>
                     <asp:Parameter Name="account" Type="String" />
                 </DeleteParameters>
@@ -127,7 +127,7 @@
             </asp:SqlDataSource>
 
         </form>
-        <br/>
+        <br>
         </div>
         </div>
 </body>
